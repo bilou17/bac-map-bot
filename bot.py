@@ -72,7 +72,7 @@ def send_welcome(message):
     if not is_user_subscribed(user.id):
         welcome_text = (
             f"أهلاً بك يا **{user.first_name}** في بوت **Bac Map** 🎓\n\n"
-            "⚠️ **عذراً، يجب عليك الاشتراك في القناة الرسمية أولاً لاستخدام البوت وتحميل التطبيق!**\n\n"
+            "⚠️ **عذراً، يجب عليك الاشتراك في القناة الرسمية أولاً لاستخدام البوت ويمكنك تحميل التطبيق من القناة!**\n\n"
             "اشترك في القناة ثم اضغط على زر **«تحقق من الاشتراك 🔄»**"
         )
         markup = types.InlineKeyboardMarkup(row_width=1)
