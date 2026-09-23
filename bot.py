@@ -6,7 +6,7 @@ import telebot
 from telebot import types
 from flask import Flask
 
-TOKEN = "8595028279:AAGlsrY5HpwrvDFXIMRXksyrjcowwPCa-J8"
+TOKEN = "8889525379:AAF0d4ZFKS0iV1Mtpn_LCujcNH2HI0GgB-c"
 bot = telebot.TeleBot(TOKEN)
 
 # 1. معرف حسابك الشخصي ليصلك إشعار بالزوار الجدد
