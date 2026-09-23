@@ -8,7 +8,7 @@ from flask import Flask
 TOKEN = "8595028279:AAGlsrY5HpwrvDFXIMRXksyrjcowwPCa-J8"
 bot = telebot.TeleBot(TOKEN)
 
-WEB_APP_URL = "https://creative-centaur-f1be1a.netlify.app"
+WEB_APP_URL = "https://starlit-piroshki-5591a1.netlify.app"
 
 # 1. إنشاء سيرفر ويب وهمي لمنع موقع Render من إدخال البوت في وضع النوم
 app = Flask("")
